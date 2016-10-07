@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "request": "^2.75.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazillionbeings/bb-provider-image-name.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "request": "^2.75.0",
-    "request-promise": "^4.1.1"
-  }
+  "bugs": {
+    "url": "https://github.com/bazillionbeings/bb-provider-image-name/issues"
+  },
+  "homepage": "https://github.com/bazillionbeings/bb-provider-image-name#readme"
 }
