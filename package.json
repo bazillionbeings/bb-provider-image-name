@@ -1,5 +1,5 @@
 {
-  "name": "bb-provider-image-name",
+  "name": "bb-provider-image-recognizer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
