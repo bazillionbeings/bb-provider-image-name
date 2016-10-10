@@ -5,7 +5,7 @@ const request = require('request'),
 
 class ImageNameProvider {
     execute(input) {
-        return Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             const formData = {
                 image: fs.createReadStream(input.imagePath)
             };
